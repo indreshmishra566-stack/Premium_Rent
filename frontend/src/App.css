@@ -1,0 +1,108 @@
+.auth-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background:
+    linear-gradient(110deg, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.35)),
+    url("https://images.pexels.com/photos/3764984/pexels-photo-3764984.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: #f7f7f7;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.auth-panel {
+  width: min(440px, 100%);
+  border: 1px solid #ffffff22;
+  background: rgba(5, 7, 12, 0.86);
+  backdrop-filter: blur(18px);
+  border-radius: 8px;
+  padding: 28px;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.65);
+}
+
+.auth-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 28px;
+}
+
+.auth-brand span {
+  font-size: 13px;
+  letter-spacing: 0.4em;
+}
+
+.auth-brand strong {
+  color: #91b7ff;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.auth-panel h1 {
+  margin: 0 0 10px;
+  font-size: 32px;
+}
+
+.auth-panel p {
+  margin: 0 0 20px;
+  color: #c5c5c5;
+  line-height: 1.55;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.auth-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  color: #dedede;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.auth-form input {
+  height: 44px;
+  border: 1px solid #ffffff2e;
+  border-radius: 6px;
+  padding: 0 12px;
+  background: #080a11;
+  color: #fff;
+  font-size: 15px;
+}
+
+.auth-message {
+  margin: 0;
+  color: #ffb9b9;
+  font-size: 14px;
+}
+
+.auth-submit,
+.auth-switch {
+  height: 44px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.auth-submit {
+  border: none;
+  background: #fff;
+  color: #050505;
+}
+
+.auth-switch {
+  width: 100%;
+  margin-top: 14px;
+  border: 1px solid #ffffff40;
+  background: transparent;
+  color: #f3f3f3;
+}
